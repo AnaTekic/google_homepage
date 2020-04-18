@@ -28,11 +28,11 @@
     
 }
 .navbar-left ul li {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     text-decoration: none
 }
 .navbar-right ul li {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 25px 10px 10px;
     
 }
 .navbar-right ul li a {
@@ -43,14 +43,59 @@
     text-decoration: none;
     color: black;
 }
+.login-button {
+	background-color:#1d8ccc;
+	border-radius:2px;
+	border:1px solid #168edfe8;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding: 8px 12px;
+    text-decoration:none;
+    color: white !important;
+}
+
+#apps-icon {
+    width: 20px;
+    height: 20px;
+}
 main {
     width:100vw;
     height: 84vh;
 }
 footer {
     width: 100vw;
-    height: 7vh;
+    height: 4vh;
 }
-.logo {
+.logo-section {
+padding-top: 15vh;
 
+
+
+
+text-align: center;
+
+}
+.search {  
+text-align: center;
+}
+#search-text {
+    margin: 20px;
+}
+input{
+    border-radius:0;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
 }
