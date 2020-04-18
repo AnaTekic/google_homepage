@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width:100vw;
+    
+}
+.navbar-left ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar-right ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar-left ul li {
+    padding: 10px 20px 10px 20px;
+}
+.navbar-right ul li {
+    padding: 10px 20px 10px 20px;
+}
