@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
-}
+    font-family: Arial;
+    font-size: 0.9rem;
+    }
 .icon {
     width: 16px;
     height: 16px;
@@ -10,21 +12,45 @@
     justify-content: space-between;
     top: 0;
     width:100vw;
-    
+    height: 7vh;
+    text-decoration: none;
 }
 .navbar-left ul {
     display:flex;
     justify-content: space-between;
     list-style-type: none;
+    
 }
 .navbar-right ul {
     display:flex;
     justify-content: space-between;
     list-style-type: none;
+    
 }
 .navbar-left ul li {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none
 }
 .navbar-right ul li {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.navbar-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    width:100vw;
+    height: 84vh;
+}
+footer {
+    width: 100vw;
+    height: 7vh;
+}
+.logo {
+
 }
