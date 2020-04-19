@@ -3,6 +3,10 @@
     font-family: Arial;
     font-size: 0.9rem;
     }
+html {
+    height: 100vh;
+}
+   
 .icon {
     width: 16px;
     height: 16px;
@@ -65,28 +69,29 @@ main {
     align-items: center;
     width:100vw;
     height: 84vh;
+    
 }
-footer {
-    width: 100vw;
-    height: 4vh;
-}
+
 .logo-section {
 padding-top: 15vh;
 text-align: center;
-
+padding-bottom: 2rem;
 }
 input{
     width: 40%;
-    height: 30px;
+    height: 40px;
     border:1px solid #dadce0;
 }
 #search-text{
-    height: 3rem;
+    height: 3.2rem;
     width: 40rem;
     border: 1px solid rgba(184, 178, 178, 0.527);
     border-radius: 50px;
     padding-left: 48px; 
     font-size: 1.2em;     
+}
+#search-text:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 .search-wrapper{
     
@@ -110,4 +115,33 @@ input{
     height: auto;
     opacity: 0.5;
 }
-  
+
+    .button {
+        box-sizing: unset;
+        background-color:#ebe8e8da;
+        border-radius:3px;
+        border-style: none;
+        display:inline-block;
+        cursor:pointer;
+        color:#696868;
+        font-family:Arial;
+        font-size: 15px;
+        font-weight: 300;
+        padding:8px 23px;
+        text-decoration:none;
+        margin-right: 1.5rem;
+    }
+    .button:hover {
+        color: black;
+        border: 1px solid rgb(182, 182, 182);
+        padding:7px 22px;
+    }
+    
+   footer{
+        bottom:0;
+        height:6vh;
+        background-color: thistle;
+        width: 100vw;
+    
+    }
+   
