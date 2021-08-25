@@ -1,1 +1,1 @@
-# google_homepage
+Recreating google homepage as HTML/CSS exercise
